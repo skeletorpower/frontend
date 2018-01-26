@@ -25,8 +25,6 @@ navigator.mediaDevices.getUserMedia({video: true, audio:false})
                         console.log(`Error: ${err}`);
                     });
 
-// downloadable image
-
 
 
 
@@ -69,6 +67,8 @@ function takePicture(){
         //create image from the canvas
         const imgUrl = canvas.toDataURL('image/png');
 
+        // Canvas2Image.saveAsPNG(canvas, width, height);
+
         //set img source
         img.setAttribute('src', imgUrl);
 
@@ -79,12 +79,6 @@ function takePicture(){
         photos.appendChild(img);
 
         
-        try {
-            localStorage.setItem(img, imgUrl);
-        }
-        catch (e) {
-            console.log("Storage failed: " + e);
-        }
 
     }
 }
