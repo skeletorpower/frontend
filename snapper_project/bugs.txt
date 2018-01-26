@@ -1,0 +1,2 @@
+1. kada se uslika sa filterom i pokusa da otvori u novom tabu da bi je sacuvala, filter nestane. 	need some work.
+
