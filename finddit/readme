@@ -1,0 +1,10 @@
+for the app to run you need to do some commands first
+
+be sure to have node js installed, so that you can run npm
+
+first, install parcel if you don't have it: npm install -g parcel-bundler
+and last, run the index.html file through parcel: parcel index.html
+
+parcel will make local development server on http://localhost:1234
+
+that's all :)
