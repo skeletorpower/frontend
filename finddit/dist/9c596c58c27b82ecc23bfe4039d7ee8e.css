@@ -1,0 +1,14 @@
+body{
+    background-color: #2b3342 !important;
+}
+
+.brandIcon{
+    position: absolute;
+    max-height: 40px;
+    max-width: auto;
+}
+
+.brandLink{
+    position: absolute;
+    margin: -20px 80px;
+}
